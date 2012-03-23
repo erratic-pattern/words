@@ -1,0 +1,30 @@
+A simple program to randomly generate words based on 3-order markov models.
+
+
+--How to use--
+
+For information about command line options, see ./words.pl --help
+
+
+
+--Examples--
+
+prints a list of all datasets: 
+  ./words -l
+
+one word from the eng-1M dataset: 
+  ./words
+
+twenty words from the eng-1M dataset: 
+  ./words 20
+
+one word from the finnish dataset: 
+  ./words --finnish
+
+fifteen words from the eng-gb dataset 
+  ./words --eng-gb 15
+
+fourteen words from a dataset interpolated from german-medical,
+norwegian, finnish, and eng-all datasets: 
+  ./words --german-medical --norwegian --finnish --eng-all 14
+
