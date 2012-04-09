@@ -101,7 +101,7 @@ sub generate {
 
 sub load_dataset {
     my ($mod) = @_;
-    push @loaded_data, retrieve ("Data/$mod") or die "Unable to load $mod";
+    push @loaded_data, retrieve ("data/$mod") or die "Unable to load $mod";
 }
 
 sub main {

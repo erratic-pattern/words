@@ -1,10 +1,12 @@
-A simple program to randomly generate words based on 3-order markov models.
+A simple script to randomly generate words based on 3-order markov models.
 
 
 --How to use--
 
-For information about command line options, see ./words.pl --help
+You must have perl 5.10 or greater installed on your system to use
+this script.
 
+For information about command line options, see ./words.pl --help
 
 
 --Examples--
