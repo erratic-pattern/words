@@ -10,7 +10,7 @@ BEGIN {
     eval {
         require Math::Random::MT::Perl; Math::Random::MT::Perl->import('rand');
     };
-    warn "Optional module Math::Random::MT::Perl not found.\n" if $@;
+    #warn "Optional module Math::Random::MT::Perl not found.\n" if $@;
 }
 
 #constants
